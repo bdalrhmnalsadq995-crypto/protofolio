@@ -1,0 +1,244 @@
+ *{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+
+ header{
+    background-color: rgb(123, 55, 233);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+ }
+
+ .pt{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    color: rgb(251, 251, 255);
+ }
+
+ .navigatoin a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1em;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+ }
+
+ .navigatoin a:hover{
+    color: rgb(223, 25, 25);
+ }
+
+ section{
+    padding: 100px 200px;
+ }
+ .main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(217, 226, 244, 0.899);
+ }
+ .main h2{
+    
+    font-size: 1.4em;
+    font-weight: 500;
+ }
+ .main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 600;
+    color: blueviolet;
+ }
+
+ .main h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+ .main-btn{
+    color: azure;
+    background-color: blueviolet;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    margin-bottom: 40px;
+    transition:2s ease;
+ }
+.main-btn:hover{
+    background-color: rgb(7, 7, 111);
+    transform: scale(1.1);
+}
+.SocialMedia{
+    color: white;
+    font-size: 1.7em;
+    padding-left: 30px;
+}
+.titel{
+   display: flex;
+   color: blueviolet;
+   justify-content: center;
+   font-size: 2.2em;
+   font-weight: 800;
+   margin-bottom: 30px;
+}
+.content{
+   display: flex;
+   justify-content: center;
+   flex-direction:row;
+   flex-wrap: wrap;
+}
+.card{
+   background-color: #fff; 
+   width: 21.21em;
+   box-shadow: 0 5px 25px rgba(1 1 1 / 15%)  ;
+   border-radius: 10px;
+   padding: 25px;
+   margin: 15px;
+   transition: 0.7s ease;
+}
+
+.card:hover{
+   transform: scale(1.1);
+}
+.icon{
+   font-size: 8em;
+   color: blueviolet;
+   text-align: center;
+}
+.informatoin h3{
+   margin: 10px;
+   color: blueviolet;
+   font-size: 1.2em;
+   font-weight: 800;
+   text-align: center;
+}
+.informatoin{
+   text-align: center;
+}
+.Project{
+   background-color:rgb(40, 5, 72);
+}
+.Project .content{
+   margin-top: 30px;
+}
+.project_Card{
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: 5px;
+   transition: 0.7s ease;
+   margin: 20px;
+}
+.project_Card:hover{
+   transform: scale(1.1);
+   background-color: azure;
+}
+.project_Card:hover .imag{
+opacity: 0.9;
+}
+.prag-proj{
+   padding: 1em;
+}
+.prag-proj .titl a{
+   text-decoration: none;
+   font-weight: 700;
+   justify-content: space-between;
+}
+.prag-proj .titl{ 
+   display: flex;
+   justify-content: space-between;   
+   text-transform: uppercase;  
+   font-size: 1em;
+   margin-top: 10px;
+}
+.prag-proj .titl span{ 
+   justify-content: space-between; 
+   font-weight: 800; 
+}
+.link:hover{
+   color: rgb(110, 110, 232);
+}
+.card-contact{
+flex-direction: row;
+}
+.card-contact .informatoin h3{
+   color: black;
+   font-size:1em;
+   font-weight: 800;
+}
+.card-contact .informatoin p{
+   color: black;
+   font-size:1.2em;
+   font-weight: 540;
+}
+.card-contact .card .icon{
+   font-size:3em;
+}
+.footer{
+   background-color: black;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   letter-spacing: 1px;
+}
+.footer p span{
+   color:blueviolet;
+}
+
+@media{max-width: 1023;}{
+   header{
+      padding: 12px 20px;
+   }
+   .navigatoin{
+      padding-left: 10px;
+   }
+   .titel{
+      font-size: 1.8em;
+   }
+   section{
+      padding: 80px 20px;
+   }
+   .main{
+      font-size: 1.6em;
+   }
+   .content{
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media{max-width: 614;}
+{
+body{
+   font-size: 12px;
+}
+.main h2{
+font-size:0.8em ;
+}
+.main h3{
+   font-size: 1.4em;
+}
+}
+@media{max-width: 300;}
+{
+body{
+   font-size: 10px;
+}
+}
+
+
